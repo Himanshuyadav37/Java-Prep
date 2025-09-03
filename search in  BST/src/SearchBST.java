@@ -1,23 +1,4 @@
 
-//    // Search in BST
-//    boolean search(Node root, int key) {
-//        if (root == null) {
-//            return false; // key not found
-//        }
-//        if (root.data == key) {
-//            return true;  // key found
-//        }
-//        if (key < root.data) {
-//            return search(root.left, key); // search left
-//        } else {
-//            return search(root.right, key); // search right
-//        }
-//    }
-//}
-//
-
-
-
 class Node{
     int data;
     Node left;
